@@ -1,72 +1,70 @@
-# TaxEase-AI
-🏦 TaxEase AI - AI-Powered Tax Assistant
-🌟 Overview
-TaxEase AI is an intelligent tax assistant that simplifies tax calculations using Artificial Intelligence. It automates tax filing, identifies deductions, minimizes errors, and provides personalized tax advice to users, making tax management effortless.
+# Getting Started with Create React App
 
-🎯 Key Features
-✅ Smart Tax Calculation – AI-powered tax computations with deduction suggestions.
-✅ Tax Planning Insights – Personalized advice for better tax planning.
-✅ AI Tax Assistant – Chat with AI for real-time tax guidance.
-✅ Document Analysis – Upload tax-related documents for automatic extraction and analysis.
-✅ User-Friendly Interface – A clean and intuitive UI for smooth user experience.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# AI-Powered Tax Assistant
+## Available Scripts
 
-## Overview
-AI-Powered Tax Assistant is a web application designed to simplify tax calculations, planning, and document analysis using artificial intelligence. It provides users with an interactive AI-powered chat assistant to answer tax-related queries, automatic document analysis, and smart tax planning insights.
+In the project directory, you can run:
 
-## Features
-- **Smart Tax Calculation**: AI-powered tax computation with automatic deduction suggestions and optimization strategies.
-- **Tax Planning Insights**: Personalized tax advice and future tax liability predictions.
-- **AI Tax Assistant**: Chat with an AI assistant for real-time tax guidance.
-- **Document Analysis**: Upload tax-related documents for automatic extraction and analysis.
+### `npm start`
 
-## Tech Stack
-- **Frontend**: React, Material-UI
-- **Backend**: Node.js (Express.js)
-- **AI Processing**: OpenAI API (or custom ML model)
-- **Database**: MongoDB (optional for user data storage)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Installation
-### Prerequisites
-- Node.js and npm installed
-- A backend API running at `http://localhost:5000/api/ai/chat`
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/tax-assistant.git
-   cd tax-assistant
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the development server:
-   ```bash
-   npm start
-   ```
+### `npm test`
 
-## Usage
-1. Visit `http://localhost:3000` in your browser.
-2. Click **Get Started** to explore tax features.
-3. Use the chat assistant to ask tax-related queries.
-4. Upload documents for AI-powered analysis.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## API Endpoints
-- **POST** `/api/ai/chat`: Sends user queries and retrieves AI responses.
-- **POST** `/api/analyze-docs`: Uploads and processes tax documents (if implemented).
+### `npm run build`
 
-## Contributing
-1. Fork the repository.
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit changes: `git commit -m 'Add feature'`
-4. Push to the branch: `git push origin feature-name`
-5. Submit a pull request.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## License
-This project is licensed under the MIT License.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Contact
-For any queries, please reach out to `your-email@example.com`.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
